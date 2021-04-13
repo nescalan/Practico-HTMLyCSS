@@ -37,7 +37,7 @@ nav .nav-right-section .menu-icon {
   background-image: url("https://static.thenounproject.com/png/756729-200.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; /* Se ajusta al contenedor */
+  background-size: contain; /* Ajusta el contenido al contenedor */
   width: 25px;
   height: 25px;
 }
@@ -49,3 +49,38 @@ nav .nav-right-section img {
 }
 
 /*-------------------- MAIN --------------------*/
+body main {
+    margin-top: 150px;
+    text-align: center; /* centra todo dentro del contenedor */
+}
+main .main-logo {
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 35px;
+    width: 530px;
+}
+main .main-logo img {
+    width: 272px;
+}
+main .main-input {
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 35px;
+    width: 530px;
+}
+main .main-input .main-input-container {
+    border-radius: 100px;
+    width: 525px;
+    border: 1px solid #DFE1E5;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+main .main-input .main-input-container input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    
+}
