@@ -10,6 +10,7 @@ a {
   cursor: pointer;
 }
 
+/*-------------------- HEADER --------------------*/
 header {
   width: 100%;
   height: 60px;
@@ -46,3 +47,5 @@ nav .nav-right-section img {
   width: 35px;
   height: 35px;
 }
+
+/*-------------------- MAIN --------------------*/
