@@ -78,9 +78,29 @@ main .main-input .main-input-container {
     justify-content: center;
     align-items: center
 }
+main .main-input .main-input-container:hover {
+    box-shadow: 0 1px 6px 1px #DFE1E5;
+    border-color: #DFE1E5;
+}
 main .main-input .main-input-container input {
     width: 450px;
     height: 40px;
     border: none;
-    
+}
+main .main-input .main-input-container .search-icon {
+    background-image: url(https://cdn.imgbin.com/17/10/10/imgbin-computer-icons-world-wide-web-iconfinder-search-simple-gray-symbol-D70ETMsXp1UyYRvKi26jWg5vP.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* Ajusta el contenido al contenedor */
+    width: 18px;
+    height: 18px;
+}
+main .main-input .main-input-container .micro-icon {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* Ajusta el contenido al contenedor */
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
 }
