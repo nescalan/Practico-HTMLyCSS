@@ -144,7 +144,7 @@ footer {
   height: 50px;
   position: absolute; /*----- este valor mas bottom -----*/
   bottom: 0; /*----- garantiza el footer en el fondo-----*/
-  display: grid;
+  display: grid; /*-- utiliza para psicionar etiquetas contenedoras --*/
   grid-template-columns: 1fr 1fr;
   align-items: center;
   font-size: 13px;
@@ -157,7 +157,7 @@ footer .costa-rica {
 footer ul {
   margin: 10px;
   list-style: none;
-  display: flex;
+  display: flex; /*-- Se utiliza para posicionar el contenido de las etiquetas --*/
   padding-left: 0;
 }
 footer .footer-left {
