@@ -133,3 +133,12 @@ main .main-buttons div button:hover {
   border: 1px solid #dadce0;
   color: #202124;
 }
+
+/*-------------------- MAIN --------------------*/
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer ul {
+  display: inline-block;
+}
