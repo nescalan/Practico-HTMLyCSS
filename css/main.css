@@ -1,3 +1,7 @@
+:root {
+  --footer-color: #f2f2f2;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -136,9 +140,33 @@ main .main-buttons div button:hover {
 
 /*-------------------- MAIN --------------------*/
 footer {
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  position: absolute; /*----- este valor mas bottom -----*/
+  bottom: 0; /*----- garantiza el footer en el fondo-----*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 13px;
+  background: var(--footer-color);
+  border-top: 1px solid #e4e4e4;
+}
+footer .costa-rica {
+  background-color: var(--footer-color);
 }
 footer ul {
-  display: inline-block;
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+footer .footer-left {
+  justify-content: left;
+}
+footer .footer-right {
+  justify-content: right;
+}
+footer ul li a {
+  margin: 10px;
+  color: #5f6368;
 }
