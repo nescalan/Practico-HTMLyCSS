@@ -138,35 +138,48 @@ main .main-buttons div button:hover {
   color: #202124;
 }
 
-/*-------------------- MAIN --------------------*/
+/*-------------------- FOOTER --------------------*/
 footer {
-  width: 100%;
-  height: 50px;
-  position: absolute; /*----- este valor mas bottom -----*/
-  bottom: 0; /*----- garantiza el footer en el fondo-----*/
-  display: grid; /*-- utiliza para psicionar etiquetas contenedoras --*/
+  height: 70px;
+  flex-wrap: wrap;
+  justify-content: center;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+/*  align-items: center;*/
   font-size: 13px;
   background: var(--footer-color);
   border-top: 1px solid #e4e4e4;
+  /*	fijamos el footer al fondo de la pagina*/
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-footer .costa-rica {
-  background-color: var(--footer-color);
-}
+
 footer ul {
   margin: 10px;
   list-style: none;
-  display: flex; /*-- Se utiliza para posicionar el contenido de las etiquetas --*/
+  display: flex; 
+/*	-- Se utiliza para posicionar el contenido de las etiquetas --*/
   padding-left: 0;
 }
+
 footer .footer-left {
   justify-content: left;
 }
+
 footer .footer-right {
   justify-content: right;
 }
+
 footer ul li a {
-  margin: 10px;
+  margin: 7px;
   color: #5f6368;
+}
+
+/*-------------------- RESPONSIVE DESIGN --------------------*/
+@media (min-width:600px){
+	footer {
+		height: 40px;
+	  	display: flex;
+	  	justify-content: space-between;
+	}
 }
